@@ -49,3 +49,12 @@ p {
   height: 40rem;
   border-bottom-left-radius: 7rem;
 }
+
+.img__bg {
+  background-image: url("../images/bg-pattern-intro.svg");
+  background-position: left 20% bottom 50%;
+  background-size: 200%;
+  background-repeat: no-repeat;
+  height: 100%;
+  z-index: 2;
+}
