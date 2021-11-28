@@ -40,3 +40,12 @@ p {
   margin: 0;
   padding: 0;
 }
+
+.header {
+  background-image: var(--gr-clr--500);
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 40rem;
+  border-bottom-left-radius: 7rem;
+}
