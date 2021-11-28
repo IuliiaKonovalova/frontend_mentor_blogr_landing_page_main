@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&family=Ubuntu:wght@400;500;700&display=swap');
+
 :root {
   --gr-clr--500: linear-gradient(to right, #ff8f70, #ff7e66, #ff6c5e, #ff5758, #ff3d54);
   --gr-clr--900: linear-gradient(to right, #2c2d3f, #313248, #353751, #3a3c5b, #3f4164);
@@ -13,8 +15,8 @@
   --clr-accent--500: hsl(355, 100%, 74%);
   /*headings*/
   --clr-accent--900: hsl(208, 49%, 24%);
-  --ff-primary: ;
-  --ff-accent: ;
+  --ff-primary: 'Overpass', sans-serif;
+  --ff-accent: 'Ubuntu', sans-serif;
   --br: 1.7em;
 }
 
