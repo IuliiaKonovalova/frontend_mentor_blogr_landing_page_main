@@ -48,6 +48,7 @@ p {
   background-repeat: no-repeat;
   height: 40rem;
   border-bottom-left-radius: 7rem;
+  position: relative;
 }
 
 .img__bg {
@@ -57,4 +58,8 @@ p {
   background-repeat: no-repeat;
   height: 100%;
   z-index: 2;
+}
+
+.nav_container {
+  position: absolute;
 }
