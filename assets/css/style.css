@@ -1,3 +1,23 @@
+:root {
+  --gr-clr--500: linear-gradient(to right, #ff8f70, #ff7e66, #ff6c5e, #ff5758, #ff3d54);
+  --gr-clr--900: linear-gradient(to right, #2c2d3f, #313248, #353751, #3a3c5b, #3f4164);
+  --clr-neutral--100: hsl(0, 0%, 100%);
+  /* footer text */
+  --clr-neutral--300: hsl(240, 2%, 79%);
+  /* body copy */
+  --clr-neutral--500: hsl(207, 13%, 34%);
+  /* footer background */
+  --clr-neutral--900: hsl(240, 10%, 16%);
+  --clr-accent--300: hsl(356, 100%, 66%);
+  /* hover */
+  --clr-accent--500: hsl(355, 100%, 74%);
+  /*headings*/
+  --clr-accent--900: hsl(208, 49%, 24%);
+  --ff-primary: ;
+  --ff-accent: ;
+  --br: 1.7em;
+}
+
 /*------ Global Settings------*/
 *,
 *::before,
