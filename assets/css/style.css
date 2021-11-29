@@ -214,6 +214,33 @@ p {
   align-items: center;
 }
 
+details>summary {
+  list-style: none;
+  position: relative;
+}
+
+summary::-webkit-details-marker {
+  display: none
+}
+
+summary::after {
+  content: url('../images/icon-arrow-dark.svg');
+  position: absolute;
+  top: -18%;
+  left: 85%;
+  width: 25px;
+  height: 25px;
+}
+
+details[open] summary:after {
+  content: url('../images/icon-arrow-dark.svg');
+  position: absolute;
+  top: 50%;
+  left: 85%;
+  width: 15px;
+  height: 15px;
+  transform: rotate(180deg);
+}
 
 .nav_menu__item {
   margin-right: 0.5rem;
