@@ -238,6 +238,13 @@ details[open] {
   color: var(--clr-neutral--400);
 }
 
+
+
+.submenu li {
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+}
+
 details[open] summary:after {
   content: url('../images/icon-arrow-dark.svg');
   position: absolute;
