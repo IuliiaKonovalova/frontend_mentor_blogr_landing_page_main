@@ -210,6 +210,8 @@ p {
   transition: opacity 350ms ease-in-out;
 }
 
+
+
 .nav-toggle:checked~.nav_menu {
   transform: scale(1, 1);
 }
