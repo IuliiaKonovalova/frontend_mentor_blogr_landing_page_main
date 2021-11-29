@@ -210,7 +210,14 @@ p {
   transition: opacity 350ms ease-in-out;
 }
 
-
+.btn--sign_up {
+  background: var(--gr-clr--300);
+  width: 11rem;
+  padding: 1rem 0;
+  font-family: var(--ff-accent);
+  font-size: 1.5rem;
+  font-weight: 700;
+}
 
 .nav-toggle:checked~.nav_menu {
   transform: scale(1, 1);
