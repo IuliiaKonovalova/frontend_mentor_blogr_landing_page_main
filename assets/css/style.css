@@ -208,6 +208,13 @@ p {
   font-size: 1.4rem;
   opacity: 0;
   transition: opacity 350ms ease-in-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav_menu__item {
+  margin-right: 0.5rem;
 }
 
 .btn--sign_up {
