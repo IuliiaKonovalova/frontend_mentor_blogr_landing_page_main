@@ -46,20 +46,127 @@ p {
   background-position: center;
   background-size: 100%;
   background-repeat: no-repeat;
+  width: 100vw;
   height: 40rem;
   border-bottom-left-radius: 7rem;
   position: relative;
+  display: flex;
+  z-index: 1;
+  /* background-image: url("../images/bg-pattern-intro.svg"); */
+}
+
+
+
+.img {
+  display: block;
+  width: 100rem;
+  /* object-fit: cover; */
+  /* height: 80rem; */
 }
 
 .img__bg {
-  background-image: url("../images/bg-pattern-intro.svg");
+  /* background-image: url("../images/bg-pattern-intro.svg");
   background-position: left 20% bottom 50%;
+  background-position: center;
   background-size: 200%;
   background-repeat: no-repeat;
   height: 100%;
-  z-index: 2;
+*/
+  background-image: url("../images/bg-pattern-intro.svg");
+  background-position: left 35% bottom 70%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  /* z-index: 1; */
 }
 
 .nav_container {
   position: absolute;
+  width: 100%;
+  display: flex;
+  background-color: blue;
+  z-index: 999;
+}
+
+/* Logo Styling */
+
+.logo {
+  /* justify-content: center; */
+  /* align-items: center; */
+  padding: 0.5rem;
+  background-color: violet;
+  margin-right: 3rem;
+}
+
+
+/*Hamburger Styling*/
+
+.nav-toggle {
+  display: none;
+}
+
+.nav-toggle-label {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-left: 3rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  background-image: url('../images/icon-hamburger.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.nav-toggle-label span,
+.nav-toggle-label span::before,
+.nav-toggle-label span::after {
+  display: block;
+  height: 2.5rem;
+  width: 5rem;
+}
+
+.nav_menu {
+  position: absolute;
+  text-align: left;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background: yellow;
+  transform: scale(1, 0);
+  transform-origin: top;
+  transition: transform 1000ms ease-in-out;
+}
+
+.nav_menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav_menu li {
+  margin-bottom: 0.5rem;
+  margin-left: 1rem;
+}
+
+.nav_menu ul:first-child {
+  margin-top: 1.4rem;
+}
+
+.nav_menu a {
+  text-decoration: none;
+  color: red;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  opacity: 0;
+  transition: opacity 350ms ease-in-out;
+}
+
+.nav-toggle:checked~.nav_menu {
+  transform: scale(1, 1);
+}
+
+.nav-toggle:checked~.nav_menu a {
+  opacity: 1;
+  transition: opacity 350ms ease-in-out 350ms;
 }
