@@ -2,7 +2,9 @@
 
 :root {
   /* Background Gradient - Intro/CTA mobile nav */
-  --gr-clr--500: linear-gradient(to right, #ff8f70, #ff7e66, #ff6c5e, #ff5758, #ff3d54);
+  --gr-clr--300: linear-gradient(to right, #ff8f70, #ff7e66, #ff6c5e, #ff5758, #ff3d54);
+
+  --gr-clr--500: linear-gradient(to right bottom, #ff8f70, #ff7e66, #ff6c5e, #ff5758, #ff3d54);
   /* Background Gradient - Body: */
   --gr-clr--900: linear-gradient(to right, #2c2d3f, #313248, #353751, #3a3c5b, #3f4164);
   /* Body Text */
