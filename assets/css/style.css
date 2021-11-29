@@ -43,6 +43,7 @@ h2,
 p {
   margin: 0;
   padding: 0;
+  font-family: var(--ff-primary);
 }
 
 .header {
@@ -282,4 +283,11 @@ details[open] summary:after {
 .nav-toggle:checked~.nav_menu a {
   opacity: 1;
   transition: opacity 350ms ease-in-out 350ms;
+}
+
+.footer {
+  background-color: var(--clr-neutral--900);
+  color: var(--clr-neutral--300);
+  border-top-right-radius: 7rem;
+
 }
