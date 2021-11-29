@@ -304,3 +304,26 @@ details[open] summary:after {
 .footer__logo {
   margin-bottom: 4rem;
 }
+
+.footer__column {
+  padding-bottom: 3rem;
+  text-align: center;
+}
+
+.footer__column__header {
+  padding-bottom: 2rem;
+  font-weight: 600;
+  font-size: 1.6rem;
+}
+
+.footer__column ul {
+  list-style: none;
+}
+
+
+
+.footer__column ul li {
+  font-weight: 300;
+  font-size: 1.4rem;
+  padding-bottom: 0.7rem;
+}
