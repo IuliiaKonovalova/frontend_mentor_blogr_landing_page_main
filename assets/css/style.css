@@ -12,6 +12,8 @@
   /* Footer Text */
   --clr-neutral--300: hsl(240, 2%, 79%);
   /* Body Copy */
+  --clr-neutral--400: hsl(203, 5%, 48%);
+  /* Body Copy */
   --clr-neutral--500: hsl(207, 13%, 34%);
   /* Footer Background */
   --clr-neutral--900: hsl(240, 10%, 16%);
@@ -230,6 +232,10 @@ summary::after {
   left: 85%;
   width: 25px;
   height: 25px;
+}
+
+details[open] {
+  color: var(--clr-neutral--400);
 }
 
 details[open] summary:after {
