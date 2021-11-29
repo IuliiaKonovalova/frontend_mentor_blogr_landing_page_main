@@ -238,7 +238,13 @@ details[open] {
   color: var(--clr-neutral--400);
 }
 
+.submenu li:first-of-type {
+  padding-top: 3rem;
+}
 
+.submenu li:last-of-type {
+  padding-bottom: 2rem;
+}
 
 .submenu li {
   margin-bottom: 1rem;
