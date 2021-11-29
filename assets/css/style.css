@@ -68,21 +68,20 @@ p {
 }
 
 .nav_container {
-  position: absolute;
+  position: fixed;
   width: 100%;
   display: flex;
-
+  align-items: center;
+  justify-content: space-between;
   background-color: blue;
   z-index: 999;
-  height: 5rem;
+  height: 8rem;
 }
 
 /* Logo Styling */
 
 .logo {
-  /* padding: 0.5rem; */
-  background-color: violet;
-  margin-right: 3rem;
+  margin-left: 2rem;
 }
 
 
