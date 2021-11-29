@@ -200,6 +200,7 @@ p {
   margin-top: 2.2rem;
 }
 
+.nav_menu details,
 .nav_menu a {
   text-decoration: none;
   color: var(--clr-neutral--500);
@@ -212,6 +213,7 @@ p {
   justify-content: center;
   align-items: center;
 }
+
 
 .nav_menu__item {
   margin-right: 0.5rem;
@@ -230,6 +232,7 @@ p {
   transform: scale(1, 1);
 }
 
+.nav-toggle:checked~.nav_menu details,
 .nav-toggle:checked~.nav_menu a {
   opacity: 1;
   transition: opacity 350ms ease-in-out 350ms;
