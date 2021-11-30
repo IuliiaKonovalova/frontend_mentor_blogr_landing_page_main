@@ -290,9 +290,25 @@ details[open] summary:after {
 /* ----- Main Content ----- */
 
 .main__container {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: var(--clr-neutral--900);
+}
+
+.design__section {
+  max-width: 80%;
   display: grid;
-  grid-template-rows: 2fr 1fr 2fr;
-  gap: 2em;
+  grid-template-rows: 0.5fr 2fr 2fr 2fr;
+}
+
+.design__header {
+  color: var(--clr-accent--900);
+  font-weight: 700;
+  font-size: 1.9rem;
 }
 
 
