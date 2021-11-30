@@ -217,6 +217,8 @@ p {
   align-items: center;
 }
 
+/* ----- Submenu ----- */
+
 details>summary {
   list-style: none;
   position: relative;
@@ -285,12 +287,12 @@ details[open] summary:after {
   transition: opacity 350ms ease-in-out 350ms;
 }
 
+
+/* ----- Footer ----- */
 .footer {
   background-color: var(--clr-neutral--900);
   color: var(--clr-neutral--300);
   border-top-right-radius: 7rem;
-
-
 }
 
 .footer__content {
@@ -319,8 +321,6 @@ details[open] summary:after {
 .footer__column ul {
   list-style: none;
 }
-
-
 
 .footer__column ul li {
   font-weight: 300;
