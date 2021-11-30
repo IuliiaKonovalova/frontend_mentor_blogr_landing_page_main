@@ -287,6 +287,14 @@ details[open] summary:after {
   transition: opacity 350ms ease-in-out 350ms;
 }
 
+/* ----- Main Content ----- */
+
+.main__container {
+  display: grid;
+  grid-template-rows: 2fr 1fr 2fr;
+  gap: 2em;
+}
+
 
 /* ----- Footer ----- */
 .footer {
