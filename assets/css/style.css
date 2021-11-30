@@ -302,13 +302,25 @@ details[open] summary:after {
 .design__section {
   max-width: 80%;
   display: grid;
-  grid-template-rows: 0.5fr 2fr 2fr 2fr;
+  grid-template-rows: 2fr 5fr 2fr 2fr;
+  gap: 2rem;
 }
 
 .design__header {
   color: var(--clr-accent--900);
   font-weight: 700;
   font-size: 1.9rem;
+  grid-row: 1/2;
+  justify-self: center;
+  align-self: end;
+}
+
+.design__image {
+  grid-row: 2/3;
+  background-image: url("../images/illustration-editor-mobile.svg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 
 
