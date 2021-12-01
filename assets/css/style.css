@@ -567,12 +567,7 @@ details[open] summary:after {
   }
 
   .state_of_art__content {
-    position: absolute;
     top: 55%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    z-index: 2;
   }
+
 }
