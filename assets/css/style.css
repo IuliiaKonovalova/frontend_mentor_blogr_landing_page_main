@@ -302,14 +302,14 @@ details[open] summary:after {
 .design__section {
   max-width: 80%;
   display: grid;
-  grid-template-rows: 2fr 5fr 2fr 2fr;
+  grid-template-rows: 1fr 3fr 3fr 2fr;
   gap: 2rem;
 }
 
 .design__header {
   color: var(--clr-accent--900);
   font-weight: 700;
-  font-size: 1.9rem;
+  font-size: 2.6rem;
   grid-row: 1/2;
   justify-self: center;
   align-self: end;
@@ -318,9 +318,43 @@ details[open] summary:after {
 .design__image {
   grid-row: 2/3;
   background-image: url("../images/illustration-editor-mobile.svg");
-  background-size: cover;
+  background-size: contain;
   background-position: center center;
   background-repeat: no-repeat;
+}
+
+.subsection {
+  font-size: 1.5rem;
+  color: var(--clr-neutral--500);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.subsection__1 {
+  grid-row: 3/4;
+  justify-self: center;
+  align-self: center;
+}
+
+.subsection__2 {
+  grid-row: 4/5;
+  justify-self: center;
+  align-self: center;
+}
+
+.subsection__title {
+  max-width: 75%;
+  color: var(--clr-accent--900);
+  font-weight: 700;
+  font-size: 2.3rem;
+  padding-bottom: 1rem;
+}
+
+.subsection__content {
+  line-height: 1.8;
 }
 
 
