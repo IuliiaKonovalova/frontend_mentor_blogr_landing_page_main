@@ -444,7 +444,8 @@ details[open] summary:after {
 }
 
 .final__subsection__1 {
-  padding: 1rem 0;
+  padding-top: 1rem;
+  padding-bottom: 5rem;
 }
 
 .final__subsection__2 {
@@ -493,12 +494,8 @@ details[open] summary:after {
 }
 
 @media screen and (min-width: 350px) {
+
   /* ----- Main Content ----- */
-
-  .main__container {
-    background-color: violet;
-  }
-
   .design__section {
     max-width: 80%;
   }
@@ -550,47 +547,39 @@ details[open] summary:after {
   .state_of_art__paragraph {
     font-size: 1.4rem;
   }
+}
 
-  /* ----- Final Section ----- */
-
-  .final__section {
-    max-width: 80%;
-    display: flex;
-    flex-direction: column;
-    padding: 1rem 0;
-    color: transparent;
+@media screen and (min-width: 540px) {
+  .main__container {
+    background-color: violet;
   }
 
+  .design__image {
+
+    height: 30rem;
+  }
 
   .final__image {
-    background-image: url("../images/illustration-laptop-mobile.svg");
-    background-size: contain;
-    background-position: center center;
-    background-repeat: no-repeat;
-    height: 20rem;
+    height: 30rem;
   }
 
-  .final__subsection__1 {
-    padding: 1rem 0;
-  }
-
-  .final__subsection__2 {
-    padding-bottom: 5rem;
-  }
-
-
-  /* ----- Footer ----- */
-  .footer {
-    background-color: var(--clr-neutral--900);
-    color: var(--clr-neutral--300);
-    border-top-right-radius: 7rem;
-  }
-
-  .footer__content {
-    padding: 6rem;
+  .phones {
+    position: absolute;
+    top: 4%;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    z-index: 999;
+    justify-content: center;
     align-items: center;
+    width: 80%;
+    margin: auto;
+    height: 30em;
+  }
+
+  .phones img {
+    display: block;
+    margin: auto;
+    width: 100%;
+    object-fit: contain;
+
   }
 }
