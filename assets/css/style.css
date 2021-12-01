@@ -352,6 +352,18 @@ details[open] summary:after {
   line-height: 1.8;
 }
 
+/* ----- State of Art Section ----- */
+
+.state_of_art__section {
+  background-image: var(--gr-clr--900);
+  height: 50rem;
+  /* color: var(--clr-neutral-100); */
+  border-bottom-left-radius: 7rem;
+  border-top-right-radius: 7rem;
+}
+
+
+
 /* ----- Final Section ----- */
 
 .final__section {
