@@ -30,3 +30,14 @@ This is a solution to the [Blogr landing page challenge on Frontend Mentor](http
 - [Acknowledgments](#acknowledgments)
 
 ---
+
+similar as possible to the provided images.
+
+I have also added various breakpoints in order to provide the best user experience.
+
+The solution to this challenge can be accessed by this [link](https://iuliiakonovalova.github.io/frontend_mentor_blogr_landing_page_main/)
+
+
+![Responsive Mockup](documentation/responsive_mockup.png)
+
+---
