@@ -288,8 +288,6 @@ details[open] summary:after {
 /* ----- Main Content ----- */
 
 .main__container {
-  background-color: pink;
-  /* width: 100vw; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -299,7 +297,7 @@ details[open] summary:after {
 }
 
 .design__section {
-  max-width: 80%;
+  max-width: 90%;
   display: flex;
   flex-direction: column;
   padding-bottom: 3rem;
@@ -315,14 +313,14 @@ details[open] summary:after {
 
 .design__image {
   background-image: url("../images/illustration-editor-mobile.svg");
-  background-size: cover;
+  background-size: contain;
   background-position: center center;
   background-repeat: no-repeat;
-  height: 25rem;
+  height: 20rem;
 }
 
 .subsection {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   color: var(--clr-neutral--500);
   width: 100%;
   display: flex;
@@ -343,12 +341,12 @@ details[open] summary:after {
   max-width: 75%;
   color: var(--clr-accent--900);
   font-weight: 700;
-  font-size: 2.3rem;
+  font-size: 2rem;
   padding-bottom: 1rem;
 }
 
 .subsection__content {
-  line-height: 1.8;
+  line-height: 1.6;
 }
 
 /* ----- State of Art Section ----- */
@@ -357,13 +355,11 @@ details[open] summary:after {
   position: relative;
   width: 100%;
   padding-top: 15rem;
-
 }
-
 
 .phones {
   position: absolute;
-  top: 0;
+  top: 1%;
   display: flex;
   z-index: 999;
   justify-content: center;
@@ -375,13 +371,12 @@ details[open] summary:after {
 
 .phones img {
   display: block;
-  width: 30em;
+  width: 100%;
   object-fit: contain;
 
 }
 
 .circle__holder {
-
   border-bottom-left-radius: 7rem;
   border-top-right-radius: 7rem;
   background: var(--gr-clr--900);
@@ -390,27 +385,23 @@ details[open] summary:after {
 
 .circle__bg {
   background-image: url("../images/bg-pattern-circles.svg");
-  background-position: 50% -15rem;
+  background-position: 50% -19rem;
   background-size: 50em;
   background-repeat: no-repeat;
   height: 100%;
-  z-index: 30;
+  z-index: 1;
   border-top-right-radius: 7rem;
   position: relative;
 }
 
 .state_of_art__content {
   position: absolute;
-  top: 60%;
+  top: 40%;
   width: 100%;
-  /* width: 100%;
-  top: 80%; */
-  /* left: 50%; */
-  /* transform: translate(-50%, -50%); */
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* z-index: -1; */
+  z-index: 2;
   /* color: var(--clr-neutral-100); */
   /* background: transparent; */
   /* background: none; */
@@ -418,7 +409,7 @@ details[open] summary:after {
 
 .state_of_art__title {
   color: white;
-  font-size: 2.5rem;
+  font-size: 2rem;
   max-width: 85%;
   padding-bottom: 2rem;
 
@@ -426,13 +417,11 @@ details[open] summary:after {
 
 .state_of_art__paragraph {
   color: white;
-  max-width: 90%;
+  max-width: 80%;
   font-family: var(--ff-primary);
   font-weight: 300;
-  /* font-size: 1.8rem; */
   line-height: 1.8;
-  font-size: 1.5rem;
-  /* color: var(--clr-neutral--500); */
+  font-size: 1.2rem;
 }
 
 /* ----- Final Section ----- */
@@ -441,21 +430,21 @@ details[open] summary:after {
   max-width: 80%;
   display: flex;
   flex-direction: column;
-  padding-bottom: 3rem;
+  padding: 1rem 0;
   color: transparent;
 }
 
 
 .final__image {
   background-image: url("../images/illustration-laptop-mobile.svg");
-  background-size: cover;
+  background-size: contain;
   background-position: center center;
   background-repeat: no-repeat;
-  height: 25rem;
+  height: 20rem;
 }
 
 .final__subsection__1 {
-  padding: 5rem 0;
+  padding: 1rem 0;
 }
 
 .final__subsection__2 {
@@ -501,4 +490,107 @@ details[open] summary:after {
   font-weight: 300;
   font-size: 1.4rem;
   padding-bottom: 0.7rem;
+}
+
+@media screen and (min-width: 350px) {
+  /* ----- Main Content ----- */
+
+  .main__container {
+    background-color: violet;
+  }
+
+  .design__section {
+    max-width: 80%;
+  }
+
+  .design__image {
+    height: 25rem;
+  }
+
+  .subsection {
+    font-size: 1.5rem;
+  }
+
+  .subsection__1 {
+    padding-top: 0;
+    padding-bottom: 5rem;
+  }
+
+  .subsection__2 {
+    padding-bottom: 5rem;
+  }
+
+  .subsection__title {
+    font-size: 2.3rem;
+    padding-bottom: 2rem;
+  }
+
+  .subsection__content {
+    line-height: 1.7;
+  }
+
+  /* ----- State of Art Section ----- */
+
+  .circle__holder {
+    height: 50rem;
+  }
+
+  .circle__bg {
+    background-size: 45em;
+  }
+
+  .state_of_art__content {
+    top: 48%;
+  }
+
+  .state_of_art__title {
+    font-size: 2.5rem;
+  }
+
+  .state_of_art__paragraph {
+    font-size: 1.4rem;
+  }
+
+  /* ----- Final Section ----- */
+
+  .final__section {
+    max-width: 80%;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0;
+    color: transparent;
+  }
+
+
+  .final__image {
+    background-image: url("../images/illustration-laptop-mobile.svg");
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 20rem;
+  }
+
+  .final__subsection__1 {
+    padding: 1rem 0;
+  }
+
+  .final__subsection__2 {
+    padding-bottom: 5rem;
+  }
+
+
+  /* ----- Footer ----- */
+  .footer {
+    background-color: var(--clr-neutral--900);
+    color: var(--clr-neutral--300);
+    border-top-right-radius: 7rem;
+  }
+
+  .footer__content {
+    padding: 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
 }
