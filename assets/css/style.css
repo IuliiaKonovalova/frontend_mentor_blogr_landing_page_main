@@ -303,6 +303,7 @@ details[open] summary:after {
   max-width: 80%;
   display: flex;
   flex-direction: column;
+  padding-bottom: 3rem;
 }
 
 .design__header {
@@ -315,10 +316,10 @@ details[open] summary:after {
 
 .design__image {
   background-image: url("../images/illustration-editor-mobile.svg");
-  background-size: contain;
+  background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  height: 20rem;
+  height: 25rem;
 }
 
 .subsection {
@@ -351,21 +352,30 @@ details[open] summary:after {
   line-height: 1.8;
 }
 
-/* ----- Footer ----- */
+/* ----- Final Section ----- */
 
 .final__section {
   max-width: 80%;
   display: flex;
   flex-direction: column;
+  padding-bottom: 3rem;
 }
 
 
 .final__image {
   background-image: url("../images/illustration-laptop-mobile.svg");
-  background-size: contain;
+  background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  height: 30rem;
+  height: 25rem;
+}
+
+.final__subsection__1 {
+  padding: 5rem 0;
+}
+
+.final__subsection__2 {
+  padding-bottom: 5rem;
 }
 
 
