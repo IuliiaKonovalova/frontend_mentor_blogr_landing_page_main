@@ -362,7 +362,22 @@ details[open] summary:after {
   border-top-right-radius: 7rem;
 }
 
+.circle__holder {
+  width: 100%;
+  height: 40rem;
+  position: relative;
+  display: block;
+}
 
+.circle__bg {
+  background-image: url("../images/bg-pattern-circles.svg");
+  background-position: center/ top: 15%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 30rem;
+  z-index: 30;
+
+}
 
 /* ----- Final Section ----- */
 
