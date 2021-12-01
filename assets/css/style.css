@@ -288,7 +288,8 @@ details[open] summary:after {
 /* ----- Main Content ----- */
 
 .main__container {
-  width: 100vw;
+  background-color: pink;
+  /* width: 100vw; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -353,44 +354,38 @@ details[open] summary:after {
 /* ----- State of Art Section ----- */
 
 .state_of_art__section {
-
-  height: 50rem;
-  /* color: var(--clr-neutral-100); */
-
   position: relative;
-
-  display: flex;
-  flex-direction: column;
+  width: 100%;
   padding-top: 15rem;
-  /* justify-content: center; */
-
 
 }
 
 
 .phones {
   position: absolute;
-  top: -8rem;
+  top: 0;
   display: flex;
   z-index: 999;
-  margin: auto;
+  justify-content: center;
+  align-items: center;
   width: 100%;
+  margin: auto;
+  height: 30em;
 }
 
 .phones img {
   display: block;
-  width: 100%;
+  width: 30em;
+  object-fit: contain;
+
 }
 
 .circle__holder {
-  width: 100%;
+
   border-bottom-left-radius: 7rem;
   border-top-right-radius: 7rem;
-  background-image: var(--gr-clr--900);
-  height: 30rem;
-  position: relative;
-  /* display: block; */
-  /* border-top-right-radius: 7rem; */
+  background: var(--gr-clr--900);
+  height: 60rem;
 }
 
 .circle__bg {
@@ -402,29 +397,28 @@ details[open] summary:after {
   z-index: 30;
   border-top-right-radius: 7rem;
   position: relative;
-  /* display: grid;
-  grid-template-rows: 1fr 2 fr; */
-
 }
 
 .state_of_art__content {
-  /* position: absolute; */
-  grid-row: 3/4;
-  width: 100%;
-  top: 80%;
+  position: absolute;
+  top: 60%;
+  /* width: 100%;
+  top: 80%; */
   /* left: 50%; */
   /* transform: translate(-50%, -50%); */
   /* display: flex;
   flex-direction: column;
   align-items: center; */
   /* z-index: -1; */
-  color: var(--clr-neutral-100);
+  /* color: var(--clr-neutral-100); */
   /* background: transparent; */
-  background: none;
+  /* background: none; */
 }
 
 .state_of_art__title {
   color: white;
+  font-size: 2.5rem;
+
 }
 
 /* ----- Final Section ----- */
