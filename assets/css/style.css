@@ -357,6 +357,24 @@ details[open] summary:after {
   line-height: 1.8;
 }
 
+/* ----- Footer ----- */
+
+.final__section {
+  max-width: 80%;
+  display: grid;
+  grid-template-rows: 3fr 3fr 2fr;
+  gap: 2rem;
+}
+
+
+.final__image {
+  /* grid-row: 2/3; */
+  background-image: url("../images/illustration-laptop-mobile.svg");
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
 
 /* ----- Footer ----- */
 .footer {
