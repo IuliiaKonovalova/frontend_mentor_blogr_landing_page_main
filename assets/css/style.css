@@ -364,20 +364,27 @@ details[open] summary:after {
 
 .circle__holder {
   width: 100%;
-  height: 40rem;
+  height: 30rem;
   position: relative;
   display: block;
+  /* border-top-right-radius: 7rem; */
 }
 
 .circle__bg {
   background-image: url("../images/bg-pattern-circles.svg");
-  background-position: center/ top: 15%;
-  background-size: cover;
+  background-position: 50% -15rem;
+  background-size: 50em;
   background-repeat: no-repeat;
-  height: 30rem;
+  height: 100%;
   z-index: 30;
+  border-top-right-radius: 7rem;
 
 }
+
+/* .state_of_art__content {
+  position: absolute;
+  back
+} */
 
 /* ----- Final Section ----- */
 
