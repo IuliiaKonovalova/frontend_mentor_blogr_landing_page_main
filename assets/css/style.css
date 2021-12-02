@@ -644,3 +644,36 @@ details[open] summary:after {
     font-size: 1.8rem;
   }
 }
+
+@media screen and (min-width: 1000px) {
+
+  .footer__content {
+    padding: 8rem;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: start;
+  }
+
+  .footer__logo {
+    padding-right: 10vw;
+    margin-bottom: 0;
+  }
+
+  .footer__column {
+    padding-bottom: 0;
+    text-align: unset;
+    padding-right: 10vw;
+  }
+
+  .footer__column__header {
+    padding-bottom: 2.8rem;
+    font-size: 1.8rem;
+  }
+
+  .footer__column ul li {
+    font-size: 1.6rem;
+    padding-bottom: 0;
+  }
+
+}
