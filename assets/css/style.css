@@ -568,10 +568,6 @@ details[open] summary:after {
   }
 
   /* ----- Main Content ----- */
-  .main__container {
-    background-color: violet;
-  }
-
   .design__image {
     height: 30rem;
   }
@@ -593,7 +589,6 @@ details[open] summary:after {
 
 @media screen and (min-width: 850px) {
 
-
   /* ----- Header ----- */
   .header__title {
     font-size: 2.8rem;
@@ -608,10 +603,6 @@ details[open] summary:after {
 
 
   /* ----- Main Container ----- */
-  .main__container {
-    background-color: rgb(104, 104, 233);
-  }
-
   .design__section {
     max-width: 75%;
   }
@@ -676,7 +667,6 @@ details[open] summary:after {
 }
 
 @media screen and (min-width: 1000px) {
-
 
   /* ----- Header ----- */
   .header__title {
@@ -745,7 +735,6 @@ details[open] summary:after {
   .logo {
     margin-left: 8vw;
     margin-right: 4vw;
-    background-color: violet;
   }
 
 
@@ -1071,12 +1060,6 @@ details[open] summary:after {
 }
 
 @media screen and (min-width: 1770px) {
-
-  .main__container {
-    background-color: rgb(172, 119, 173);
-    /* text-align: unset; */
-  }
-
   .design__image {
     height: 220%;
     background-size: contain;
