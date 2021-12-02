@@ -503,6 +503,11 @@ details[open] summary:after {
   font-weight: 300;
   font-size: 1.4rem;
   padding-bottom: 0.7rem;
+  cursor: pointer;
+}
+
+.footer__column ul li:hover {
+  text-decoration: underline;
 }
 
 @media screen and (min-width: 350px) {
