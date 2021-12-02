@@ -727,6 +727,8 @@ details[open] summary:after {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 0.5fr 0.7fr 0.5fr;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
   }
 
   .design__header {
@@ -737,7 +739,7 @@ details[open] summary:after {
 
   .design__image {
     grid-column: 2/3;
-    grid-row: 1/4;
+    grid-row: 2/4;
     align-self: center;
   }
 
@@ -762,10 +764,10 @@ details[open] summary:after {
   .design__image {
     background-image: url("../images/illustration-editor-desktop.svg");
     background-size: cover;
-    background-position: left 50%;
+    background-position: left 8rem center;
     background-repeat: no-repeat;
     z-index: 999;
-    height: 110%;
+    height: 200%;
   }
 
   .subsection {
