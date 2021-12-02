@@ -125,6 +125,19 @@ p {
   margin-right: 1rem;
 }
 
+.btn--for_free:hover,
+.btn--for_free:focus {
+  background-color: var(--clr-accent--500);
+  border: none;
+  color: var(--clr-neutral--100);
+}
+
+.btn--learn_more:hover,
+.btn--learn_more:focus {
+  background-color: var(--clr-neutral--100);
+  color: var(--clr-accent--500);
+}
+
 .nav_container {
   position: absolute;
   width: 100%;
@@ -878,6 +891,14 @@ details[open] summary:after {
     width: 10rem;
     padding: 0.8rem 0;
     font-size: 1.2rem;
+  }
+
+  .btn--sign_up:hover,
+  .btn--sign_up:focus {
+    background-color: var(--clr-accent--500);
+    color: var(--clr-neutral--100);
+    border: none;
+    text-decoration: none;
   }
 
   .nav-toggle:checked~.nav_menu {
