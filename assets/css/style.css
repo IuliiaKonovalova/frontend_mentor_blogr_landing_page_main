@@ -736,7 +736,7 @@ details[open] summary:after {
   .btn {
     font-weight: 700;
     width: 12rem;
-    padding: 0.8rem 0.6rem;
+    padding: 1.2rem 0.6rem;
   }
 
   .btn--for_free {
@@ -792,6 +792,7 @@ details[open] summary:after {
 
   .nav_menu ul:first-child {
     margin-top: 0;
+
   }
 
   .nav_menu a,
@@ -836,7 +837,7 @@ details[open] summary:after {
     content: url('../images/icon-arrow-light.svg');
     position: absolute;
     top: -10%;
-    left: 100%;
+    left: 6rem;
 
   }
 
@@ -877,7 +878,7 @@ details[open] summary:after {
 
   details[open] summary:after {
     content: url('../images/icon-arrow-light.svg');
-
+    left: 6rem;
   }
 
   .nav_menu__item {
@@ -889,7 +890,7 @@ details[open] summary:after {
     background: var(--clr-neutral--100);
     color: var(--clr-accent--300);
     width: 10rem;
-    padding: 0.8rem 0;
+    padding: 0.9rem 0;
     font-size: 1.2rem;
   }
 
