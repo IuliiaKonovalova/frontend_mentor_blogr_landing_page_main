@@ -933,7 +933,7 @@ details[open] summary:after {
   }
 
   summary::after {
-    content: url('../images/icon-arrow-dark.svg');
+    content: url('../images/icon-arrow-light.svg');
     position: absolute;
     top: -18%;
     left: 85%;
@@ -959,7 +959,7 @@ details[open] summary:after {
   }
 
   details[open] summary:after {
-    content: url('../images/icon-arrow-dark.svg');
+    content: url('../images/icon-arrow-light.svg');
     position: absolute;
     top: 50%;
     left: 85%;
