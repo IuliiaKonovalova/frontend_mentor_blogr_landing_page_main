@@ -493,6 +493,12 @@ details[open] summary:after {
 
 @media screen and (min-width: 350px) {
 
+  .btn {
+    font-size: 1.1rem;
+    width: 9rem;
+    padding: 0.5rem 0.4rem;
+  }
+
   /* ----- Main Content ----- */
   .design__section {
     max-width: 80%;
@@ -549,9 +555,17 @@ details[open] summary:after {
 
 @media screen and (min-width: 540px) {
 
+  .btn {
+    font-size: 1.3rem;
+    width: 10rem;
+    padding: 0.6rem 0.6rem;
+  }
+
+  .btn--for_free {
+    margin-right: 2rem;
+  }
+
   /* ----- Main Content ----- */
-
-
   .main__container {
     background-color: violet;
   }
