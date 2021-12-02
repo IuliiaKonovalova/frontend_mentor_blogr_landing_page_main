@@ -721,6 +721,7 @@ details[open] summary:after {
     text-align: unset;
   }
 
+  /* ----- Design Section ----- */
   .design__section {
     all: unset;
     display: grid;
@@ -770,21 +771,10 @@ details[open] summary:after {
   .subsection {
     font-size: 1.3rem;
     width: 85%;
-    /* color: var(--clr-neutral--500); */
-    /* width: 100%; */
-    /* display: flex;
-    flex-direction: column;*/
     justify-content: left;
     align-items: unset;
   }
 
-  .subsection__1 {
-    /* padding: 5rem 0; */
-  }
-
-  .subsection__2 {
-    /* padding-bottom: 5rem; */
-  }
 
   .subsection__title {
     max-width: unset;
@@ -794,6 +784,78 @@ details[open] summary:after {
 
   .subsection__content {
     line-height: 1.6;
+  }
+
+  /* ----- State of Art Section ----- */
+
+  /* .state_of_art__section {
+    position: relative;
+    width: 100%;
+    padding-top: 15rem;
+  } */
+
+  .phones {
+    position: absolute;
+    top: 28rem;
+    left: 7rem;
+    display: flex;
+    z-index: 999;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    margin: auto;
+    height: 5em;
+  }
+
+  .phones img {
+    display: block;
+    width: 100%;
+    object-fit: contain;
+  }
+
+  .circle__holder {
+    height: 30rem;
+  }
+
+  .circle__bg {
+    background-image: url("../images/bg-pattern-circles.svg");
+    background-position: -14.5rem -32rem;
+    background-size: 70em;
+    background-repeat: no-repeat;
+    height: 100%;
+    z-index: 1;
+    border-top-right-radius: 7rem;
+    position: relative;
+  }
+
+  .state_of_art__content {
+    position: absolute;
+    top: 15rem;
+    left: 50%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: unset;
+    justify-content: center;
+    z-index: 2;
+    height: 30rem;
+  }
+
+  .state_of_art__title {
+    color: white;
+    font-size: 2.3rem;
+    max-width: 100%;
+    padding-bottom: 2rem;
+
+  }
+
+  .state_of_art__paragraph {
+    color: white;
+    max-width: 70%;
+    font-family: var(--ff-primary);
+    font-weight: 300;
+    line-height: 1.8;
+    font-size: 1.3rem;
   }
 
 }
