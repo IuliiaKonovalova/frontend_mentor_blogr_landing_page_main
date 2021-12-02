@@ -547,6 +547,10 @@ details[open] summary:after {
 }
 
 @media screen and (min-width: 540px) {
+
+  /* ----- Main Content ----- */
+
+
   .main__container {
     background-color: violet;
   }
@@ -572,4 +576,71 @@ details[open] summary:after {
 
 }
 
-@media screen and (min-width: 850px) {}
+@media screen and (min-width: 850px) {
+  .main__container {
+    background-color: rgb(104, 104, 233);
+  }
+
+  .design__section {
+    max-width: 75%;
+  }
+
+  .design__header {
+    font-size: 2.8rem;
+  }
+
+  .design__image {
+    height: 35rem;
+  }
+
+  .subsection {
+    font-size: 1.8rem;
+  }
+
+  .subsection__1 {
+    padding-top: 0;
+    padding-bottom: 5rem;
+  }
+
+  .subsection__2 {
+    padding-bottom: 5rem;
+  }
+
+  .subsection__title {
+    font-size: 2.5rem;
+    padding-bottom: 2rem;
+  }
+
+  .subsection__content {
+    line-height: 1.7;
+  }
+
+  .final__image {
+    height: 40rem;
+  }
+
+  .phones {
+    left: 20%;
+    width: 60%;
+  }
+
+  .circle__holder {
+    height: 70rem;
+  }
+
+  .state_of_art__content {
+    top: 55%;
+  }
+
+  .state_of_art__title {
+    font-size: 2.5rem;
+    max-width: 75%;
+    padding-bottom: 2.5rem;
+
+  }
+
+  .state_of_art__paragraph {
+    max-width: 75%;
+    font-size: 1.8rem;
+  }
+}
