@@ -795,13 +795,15 @@ details[open] summary:after {
     align-items: center;
     justify-content: space-between;
     z-index: 999; */
-    height: 10rem;
+    /* height: 10rem; */
   }
 
   /* Logo Styling */
 
   .logo {
     margin-left: 8vw;
+    margin-right: 4vw;
+    background-color: violet;
   }
 
 
@@ -812,16 +814,6 @@ details[open] summary:after {
   }
 
   .nav-toggle-label {
-    /* position: absolute;
-    top: 0;
-    right: 0;
-    margin-left: 3rem;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    background-image: url('../images/icon-hamburger.svg');
-    background-position: center;
-    background-repeat: no-repeat; */
     display: none;
   }
 
@@ -832,49 +824,38 @@ details[open] summary:after {
     height: 2.5rem;
     width: 5rem;
   }
-
-  .nav_menu {
-    position: absolute;
-    text-align: left;
-    top: 100%;
-    left: 5%;
-    width: 90%;
-    background: var(--clr-neutral--100);
-    border-radius: .4rem;
-    transform: scale(1, 0);
-    transform-origin: top;
-    transition: transform 1000ms ease-in-out;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-  } */
+*/
   .nav_menu {
     all: unset;
-    grid-row: 2/3;
-    display: flex;
-    justify-content: center;
-    text-align: center;
+    /* grid-row: 2/3; */
+
+    /* justify-content: left;
+    text-align: center; */
+    margin-right: 8vw;
   }
 
   .nav_menu ul {
-    display: flex;
-    justify-content: center;
-    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 5fr 1fr;
+    gap: 2rem;
     width: 100%;
+    margin: 0;
+    padding: 0;
   }
 
   .nav_menu li {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-self: center;
+    align-self: center;
     margin-left: 0;
-    margin: auto 3rem;
-    margin-bottom: 0.3rem;
-    margin-top: 0;
+    margin: 0;
     padding: 0;
     width: 100%
+  }
+
+  .nav_menu .navbar_login {
+
+    display: flex;
+    justify-content: right;
   }
 
   .nav_menu ul:first-child {
@@ -885,6 +866,7 @@ details[open] summary:after {
   .nav_menu details {
     opacity: 1;
     font-size: 1.2rem;
+    color: var(--clr-neutral--100);
   }
 
 
@@ -907,20 +889,6 @@ details[open] summary:after {
     margin-top: 2.2rem;
   }
 
-  /* .nav_menu details,
-  .nav_menu a {
-    text-decoration: none;
-    color: var(--clr-neutral--500);
-    font-family: var(--ff-accent);
-    font-weight: 500;
-    font-size: 1.4rem;
-    opacity: 0;
-    transition: opacity 350ms ease-in-out;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  } */
-
   /* ----- Submenu ----- */
 
   details>summary {
@@ -935,8 +903,8 @@ details[open] summary:after {
   summary::after {
     content: url('../images/icon-arrow-light.svg');
     position: absolute;
-    top: -18%;
-    left: 85%;
+    top: -20%;
+    left: 100%;
     width: 25px;
     height: 25px;
   }
@@ -972,13 +940,13 @@ details[open] summary:after {
     margin-right: 0.5rem;
   }
 
+  /* Sign Up Btn */
   .btn--sign_up {
-    background: var(--gr-clr--300);
-    width: 11rem;
-    padding: 1rem 0;
-    font-family: var(--ff-accent);
-    font-size: 1.5rem;
-    font-weight: 700;
+    background: var(--clr-neutral--100);
+    color: var(--clr-accent--300);
+    width: 10rem;
+    padding: 0.8rem 0;
+    font-size: 1.2rem;
   }
 
   .nav-toggle:checked~.nav_menu {
