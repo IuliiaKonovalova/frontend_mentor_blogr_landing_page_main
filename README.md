@@ -72,9 +72,9 @@ The solution to this challenge can be accessed by this [link](https://iuliiakono
 - The color scheme and font-family were provided by [Frontend Mentor](https://www.frontendmentor.io).
 
 ---
-## Bugs
+## Bugs (unsolved)
 
-Since the details and summary were used to create submenu, I couldn't apply changes to the blocks of the submenu and the white background of the elements looks a bit upper on the desktop screens.
+Since the details and summary html elements were used to create submenu, I couldn't apply changes to the blocks of the submenu and the white background of the elements looks a bit upper on the desktop screens.
 
 ---
 ## Testing
