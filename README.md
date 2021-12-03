@@ -77,4 +77,21 @@ The solution to this challenge can be accessed by this [link](https://iuliiakono
 Since the details and summary were used to create submenu, I couldn't apply changes to the blocks of the submenu and the white background of the elements looks a bit upper on the desktop screens.
 
 ---
+## Testing
+### Compatibility:
 
++ The app was tested on the following browsers: Chrome, Firefox, Brave, Edge:
+
+  - Chrome:
+
+  ![Main Page](documentation/compatibility/browser_chrome.png)
+  
+  - Firefox:
+
+  ![Main Page](documentation/compatibility/browser_firefox.png)
+
+  - Brave:
+
+  ![Main Page](documentation/compatibility/browser_brave.png)
+
++ The app was checked by devtools implemented on Firefox and Chrome browsers.
