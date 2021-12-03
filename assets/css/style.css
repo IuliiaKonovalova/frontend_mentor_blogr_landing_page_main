@@ -911,6 +911,11 @@ details[open] summary:after {
     width: 10rem;
     padding: 0.9rem 0;
     font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
   }
 
   .btn--sign_up:hover,
