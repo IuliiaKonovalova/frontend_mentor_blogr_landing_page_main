@@ -61,3 +61,13 @@ The solution to this challenge can be accessed by this [link](https://iuliiakono
 * As a Frequent User, I want to have various content, so I can be engage in visiting this website often.
 
 ---
+
+## Features
+
+---
+
+---
+## Design
+
+- The color scheme and font-family were provided by [Frontend Mentor](https://www.frontendmentor.io).
+
