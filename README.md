@@ -131,11 +131,11 @@ The functionality of the links in the app was checked as well by different users
   
   - No errors or warnings were found when passing through the official [W3C](https://validator.w3.org/) validator.
   
-    ![Main Page HTML Validator](documentation/validators/html_validator_errors.png)
+    ![Main Page HTML Validator](documentation/validators/html_validator.png)
 + #### CSS
   
   - No errors or warnings were found when passing through the official [W3C (Jigsaw)](https://jigsaw.w3.org/css-validator/#validate_by_uri) validator except the following warnings regardless root: 
 
-    ![CSS Validator Errors](documentation/validators/css_validator_errora.png)
+    ![CSS Validator Errors](documentation/validators/css_validator_errors.png)
 
-    ![CSS Validator Warnings](documentation/validators/css_validaitor_warnings.png)
+    ![CSS Validator Warnings](documentation/validators/css_validator_warnings.png)
