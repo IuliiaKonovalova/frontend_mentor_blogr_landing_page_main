@@ -55,3 +55,9 @@ The solution to this challenge can be accessed by this [link](https://iuliiakono
 * As a Returning Visitor, I want to see various content, so that I can pick the service.
 * As a Returning Visitor, I want to find a way to get in contact with the organization, so that I can ask additional questions or send a request about a their service.
 * As a Returning Visitor, I want to find community links, so that I can learn more about the organization.
+
+### Frequent Visitor Goals:
+* As a Frequent User, I want to be able always access the website, so I can learn about possible changes.
+* As a Frequent User, I want to have various content, so I can be engage in visiting this website often.
+
+---
