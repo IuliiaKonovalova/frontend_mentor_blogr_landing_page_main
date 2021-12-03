@@ -139,3 +139,7 @@ The functionality of the links in the app was checked as well by different users
     ![CSS Validator Errors](documentation/validators/css_validator_errors.png)
 
     ![CSS Validator Warnings](documentation/validators/css_validator_warnings.png)
+
+### Lighthouse Report
+
+![Lighthouse Report](documentation/lighthouse/lighthouse_report.png)
