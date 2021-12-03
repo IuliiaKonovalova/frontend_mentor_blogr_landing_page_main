@@ -8,7 +8,7 @@ This is a solution to the [Blogr landing page challenge on Frontend Mentor](http
 
 ## The design provided
 
-![Design preview for the Blogr landing page coding challenge](./design/desktop-preview.jpg)
+![Design preview for the Blogr landing page coding challenge](documentation/design/desktop-preview.jpg)
 
 ---
 
