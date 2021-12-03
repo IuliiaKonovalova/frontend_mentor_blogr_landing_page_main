@@ -95,3 +95,26 @@ Since the details and summary were used to create submenu, I couldn't apply chan
   ![Main Page](documentation/compatibility/browser_brave.png)
 
 + The app was checked by devtools implemented on Firefox and Chrome browsers.
+
+### Responsiveness:
+
++ The app was checked with [Responsive Website Design Tester](https://responsivedesignchecker.com/).
+
+  1. Mobile Screens:
+
+    - Mobile 320x480, 320x568, 360x640, 375x667, 384x640, 411x731, 414x736:
+
+     ![Mobile](documentation/responsiveness/responsiveness_mobile_devices.gif)
+
+      
+  1. Tablets Screens:
+
+    - Tablet 600x960, 768x1024, 800x1280, 1366x1024, 1600x900, 1680x1050, 1920x1080, 1920x1200:
+        
+    ![Tablet](documentation/responsiveness/responsiveness_tablet_devices.gif)
+      
+  1. Desktop Screens:
+
+    - Desktop 1024x600, 1024x800, 1366x768, 1440x900:
+        
+    ![Desktop](documentation/responsiveness/responsiveness_desktop_devices.gif)
