@@ -510,6 +510,16 @@ details[open] summary:after {
   text-decoration: underline;
 }
 
+.attribution {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.attribution>div a {
+  color: hsl(228, 100%, 81%);
+  /* text-shadow: 1px 1px 7px #000000; */
+}
+
 @media screen and (min-width: 350px) {
 
   /* ----- Header Btns ----- */
