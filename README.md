@@ -118,3 +118,11 @@ Since the details and summary were used to create submenu, I couldn't apply chan
     - Desktop 1024x600, 1024x800, 1366x768, 1440x900:
         
     ![Desktop](documentation/responsiveness/responsiveness_desktop_devices.gif)
+
+
++ Functionality:
+
+The functionality of the links in the app was checked as well by different users.
+
+ ![Functionality](documentation/responsiveness/observe_functionality.gif)
+
