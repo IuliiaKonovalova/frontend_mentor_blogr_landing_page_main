@@ -909,7 +909,7 @@ details[open] summary:after {
     background: var(--clr-neutral--100);
     color: var(--clr-accent--300);
     width: 10rem;
-    padding: 0.9rem 0;
+    /* padding: 0.9rem 0; */
     font-size: 1.2rem;
     display: flex;
     align-items: center;
