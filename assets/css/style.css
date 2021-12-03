@@ -289,6 +289,9 @@ details[open] summary:after {
   font-family: var(--ff-accent);
   font-size: 1.5rem;
   font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .nav-toggle:checked~.nav_menu {
