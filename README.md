@@ -71,6 +71,10 @@ The solution to this challenge can be accessed by this [link](https://iuliiakono
     * the landing page for the Blogr agency.
     
     ![Main Page](documentation/features/main_page.png)
+
+ - Consist:
+
+    ![Header](documentation/features/header.png) with:
 ---
 
 ---
