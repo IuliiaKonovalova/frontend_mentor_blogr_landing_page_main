@@ -75,7 +75,19 @@ The solution to this challenge can be accessed by this [link](https://iuliiakono
  - Consist:
 
     ![Header](documentation/features/header.png) with:
----
+### Navbar
+      
+![Navbar](documentation/features/navbar.png)
+
+The navbar has:
+
+  1. logo in the left top corner
+
+  ![Logo](documentation/features/logo.png)
+
+  2. Main menu with submenu as well after the logo and to buttons "Login" and "Sign Up on the right side of the screen.
+
+  ![Menu Desktop](documentation/features/main_menu.png)
 
 ---
 ## Design
