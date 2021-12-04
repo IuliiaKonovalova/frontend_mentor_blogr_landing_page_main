@@ -57,7 +57,7 @@ p {
 
 .image__holder {
   width: 100%;
-  height: 40rem;
+  height: 100vh;
   position: relative;
   display: block;
 }
@@ -591,6 +591,11 @@ details[open] summary:after {
 @media screen and (min-width: 540px) {
 
   .header {
+    height: 40rem;
+  }
+
+
+  .image__holder {
     height: 40rem;
   }
 
