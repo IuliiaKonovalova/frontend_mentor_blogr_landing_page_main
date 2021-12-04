@@ -89,6 +89,16 @@ The navbar has:
 
   ![Menu Desktop](documentation/features/main_menu.png)
 
+  For mobile screens menu is hidden and the user may see a hamburger icon to click on to see the whole menu:
+
+  ![Menu Mobile Screen](documentation/features/mobile_menu.png)
+
+  ![Menu Mobile Screen](documentation/features/mobile_menu.png)
+
+  The submenu on the mobile devices opens down in the main container.
+
+  ![Menu Mobile Screen](documentation/features/mobile_menu.png)
+
 ---
 ## Design
 
