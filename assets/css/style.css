@@ -787,7 +787,7 @@ details[open] summary:after {
 
   .nav_menu>ul {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 5fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 7fr 1fr;
     gap: 2rem;
     width: 100%;
     margin: 0;
@@ -909,7 +909,6 @@ details[open] summary:after {
     background: var(--clr-neutral--100);
     color: var(--clr-accent--300);
     width: 10rem;
-    /* padding: 0.9rem 0; */
     font-size: 1.2rem;
     display: flex;
     align-items: center;
