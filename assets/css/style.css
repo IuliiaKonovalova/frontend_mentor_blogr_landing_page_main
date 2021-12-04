@@ -88,7 +88,7 @@ p {
 
 .header__title {
   font-weight: 700;
-  font-size: 2.4rem;
+  font-size: 2rem;
   text-align: center;
   padding-bottom: 2rem;
   line-height: 1.2;
@@ -96,7 +96,7 @@ p {
 
 .header__description {
   font-weight: 500;
-  font-size: 1.3rem;
+  font-size: 1rem;
   text-align: center;
   padding-bottom: 3.5rem;
 }
@@ -527,6 +527,13 @@ details[open] summary:after {
 }
 
 @media screen and (min-width: 350px) {
+  .header__title {
+    font-size: 2.4rem;
+  }
+
+  .header__description {
+    font-size: 1.3rem;
+  }
 
   /* ----- Header Btns ----- */
   .btn {
