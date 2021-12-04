@@ -339,6 +339,8 @@ details[open] summary:after {
   background-position: center center;
   background-repeat: no-repeat;
   height: 20rem;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
 }
 
 .subsection {
