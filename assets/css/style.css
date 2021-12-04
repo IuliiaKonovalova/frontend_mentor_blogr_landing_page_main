@@ -48,7 +48,7 @@ p {
 
 .header {
   background: var(--gr-clr--500);
-  height: 40rem;
+  height: 100vh;
   border-bottom-left-radius: 7rem;
   position: relative;
   display: flex;
@@ -589,6 +589,10 @@ details[open] summary:after {
 }
 
 @media screen and (min-width: 540px) {
+
+  .header {
+    height: 40rem;
+  }
 
   /* ----- Btns Header ----- */
   .btn {
