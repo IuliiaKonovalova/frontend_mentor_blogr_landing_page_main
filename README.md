@@ -64,6 +64,13 @@ The solution to this challenge can be accessed by this [link](https://iuliiakono
 
 ## Features
 
+### Main Page
+
+  - Represent: 
+
+    * the landing page for the Blogr agency.
+    
+    ![Main Page](documentation/features/main_page.png)
 ---
 
 ---
