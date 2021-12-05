@@ -110,6 +110,18 @@ Which consist the description of the platform and the incentive with to buttons:
 Has distinctive responsive image on the right and content on the left. The content consist to paragraph with the headings describing the Blogr agency.
 
 ![Design section](documentation/features/design_section.png)
+
+### Art section.
+
+Has coal background with an image. On the left side the user may see two mobile phones and on the right side the user may find the content of the section.
+
+![Art section](documentation/features/art_section.png)
+### Final section.
+
+Has distinctive responsive image on the left and content on the right. The content consist to paragraph with the headings describing the Blogr agency.
+
+![Design section](documentation/features/final_section.png)
+
 ---
 ## Design
 
