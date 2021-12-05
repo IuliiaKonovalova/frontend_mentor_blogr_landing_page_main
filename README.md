@@ -93,12 +93,17 @@ The navbar has:
 
   ![Menu Mobile Screen](documentation/features/navbar_mobile.png)
 
-  ![Menu Mobile Screen](documentation/features/navbar_mobile_open.png)
+  ![Menu Mobile Screen Open](documentation/features/navbar_mobile_open.png)
 
   The submenu on the mobile devices opens down in the main container.
 
-  ![Menu Mobile Screen](documentation/features/navbar_mobile_open_submenu.png)
+  ![Menu Mobile Screen Open Submenu](documentation/features/navbar_mobile_open_submenu.png)
 
+### Main Section of the header
+
+Which consist the description of the platform and the incentive with to buttons: "Start for Free" and "Learn More".
+
+![Header Content](documentation/features/header_content.png)
 ---
 ## Design
 
