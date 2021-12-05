@@ -104,6 +104,12 @@ The navbar has:
 Which consist the description of the platform and the incentive with to buttons: "Start for Free" and "Learn More".
 
 ![Header Content](documentation/features/header_content.png)
+
+### Design section.
+
+Has distinctive responsive image on the right and content on the left. The content consist to paragraph with the headings describing the Blogr agency.
+
+![Design section](documentation/features/design_section.png)
 ---
 ## Design
 
