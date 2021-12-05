@@ -122,6 +122,12 @@ Has distinctive responsive image on the left and content on the right. The conte
 
 ![Design section](documentation/features/final_section.png)
 
+## Footer Section
+
+This section has a logo at the top left side, with the website links to the right side from the logo
+
+![Footer Section](documentation/features/footer.png)
+
 ---
 ## Design
 
