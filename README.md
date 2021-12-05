@@ -124,7 +124,8 @@ Has distinctive responsive image on the left and content on the right. The conte
 
 ## Footer Section
 
-This section has a logo at the top left side, with the website links to the right side from the logo
+This section has a logo at the top left side, with the website links to the right side from the logo.
+This section also contain references to the author of the challenge - FrontEnd Mentor website and the coder GitHub account link.
 
 ![Footer Section](documentation/features/footer.png)
 
