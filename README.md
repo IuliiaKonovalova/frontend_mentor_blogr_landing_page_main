@@ -132,7 +132,14 @@ This section also contain references to the author of the challenge - FrontEnd M
 ---
 ## Design
 
-- The color scheme and font-family were provided by [Frontend Mentor](https://www.frontendmentor.io).
+- The color scheme and all images were provided by [Frontend Mentor](https://www.frontendmentor.io).
+- The font-families were chosen by [Frontend Mentor](https://www.frontendmentor.io) from [Google Fonts](https://fonts.google.com/):
+
+    1. Family: [Overpass](https://fonts.google.com/specimen/Overpass?preview.text_type=custom)
+(Weights: 300, 600)
+
+    1. Family: [Ubuntu](https://fonts.google.com/specimen/Ubuntu?preview.text_type=custom)
+(Weights: 400, 500, 700)
 
 ---
 ## Bugs (unsolved)
