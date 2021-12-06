@@ -210,6 +210,17 @@ The functionality of the links in the app was checked as well by different users
 
     ![CSS Validator Warnings](documentation/validators/css_validator_warnings.png)
 
+---
 ### Lighthouse Report
 
 ![Lighthouse Report](documentation/lighthouse/lighthouse_report.png)
+
+---
+## Deployment
+
+- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the [GitHub repository](https://github.com/IuliiaKonovalova/frontend_mentor_blogr_landing_page_main/), navigate to the Settings tab 
+  - From the source section drop-down menu, select the **Main** Branch, then click "Save".
+  - The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+The live link can be found [here](https://iuliiakonovalova.github.io/frontend_mentor_blogr_landing_page_main/)
