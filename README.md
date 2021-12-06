@@ -224,3 +224,11 @@ The functionality of the links in the app was checked as well by different users
   - The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
 The live link can be found [here](https://iuliiakonovalova.github.io/frontend_mentor_blogr_landing_page_main/)
+
+---
+### Local Deployment
+
+In order to make a local copy of this project, you can clone it.
+In your IDE Terminal, type the following command to clone my repository:
+
+- `git clone https://github.com/IuliiaKonovalova/frontend_mentor_blogr_landing_page_main.git`
